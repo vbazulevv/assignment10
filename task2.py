@@ -2,11 +2,11 @@
 
 items = ["Vadim", 25, 1.80, True, "MIBA", 2026, "Python"]
 
-cnt = 0
+string_count = 0
 
 for item in items:
     if isinstance(item, str):
-        cnt += 1
+        string_count += 1
 
 print("List:", items)
-print("Number of strings:", cnt)
+print("Number of strings:", string_count)
